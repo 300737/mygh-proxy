@@ -1,10 +1,10 @@
 {
-  "host": "0.0.0.0",
-  "port": 8080,
-  "sizeLimit": 10737418240,
-  "whiteList": [],
-  "blackList": [],
-  "allowProxyAll": true,
-  "otherWhiteList": [],
-  "otherBlackList": []
+    "host": "0.0.0.0",
+    "port": 5222,
+    "sizeLimit": 10737418240,
+    "whiteList": [],
+    "blackList": [],
+    "allowProxyAll": true,
+    "otherWhiteList": [],
+    "otherBlackList": []
 }
