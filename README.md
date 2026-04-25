@@ -1,4 +1,4 @@
-# gh-proxy-go
+# mygh-proxy-go
 
 一个用于代理 GitHub 原始资源（如 `raw.githubusercontent.com`、`github.com/blob/...` 等）的 Go 程序，支持配置黑白名单、大小限制，并内置静态页面。
 
