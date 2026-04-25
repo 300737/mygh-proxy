@@ -17,12 +17,12 @@
 ###  使用 Docker 本地构建并运行
 
 
-```docker run -d --name myghproxy --restart always -p 8080:8080 \
+docker run -d --name myghproxy --restart always -p 8080:8080 \
 -e GOPROXY=https://mirrors.aliyun.com/goproxy/,direct \
 -e GOSUMDB=off \
 -v /www/wwwroot/mygh-proxy:/app \
 golang:1.21-alpine \
-sh -c "cd /app && go mod tidy && go run main.go"```
+sh -c "cd /app && go mod tidy && go run main.go"
 
 程序默认读取项目根目录的 config.json 配置文件。
 
