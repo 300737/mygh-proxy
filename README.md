@@ -17,7 +17,7 @@
 ###  使用 Docker 本地构建并运行
 
 
-```docker run -d --name gh-proxy --restart=always -p 5222:5222 ghcr.io/namegenliang/gh-proxy-go:latest```
+```docker run -d --name mygh-proxy --restart=always -p 8080:8080 ghcr.io/300737/mygh-proxy-go:latest```
 
 程序默认读取项目根目录的 config.json 配置文件。
 
